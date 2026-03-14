@@ -4,8 +4,94 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BRADBRI Pty Ltd – Precision Engineering Solutions</title>
+
+  <!-- ── SEO ──────────────────────────────────────────────────────────── -->
+  <meta name="description" content="BRADBRI Pty Ltd delivers precision CNC machining, driveline components, and custom-engineered parts for military, mining, and commercial vehicle applications. Based in Gauteng, South Africa." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="BRADBRI Pty Ltd" />
+  <link rel="canonical" href="https://bradbri.co.za/" />
+
+  <!-- Open Graph (Facebook / LinkedIn sharing) -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://bradbri.co.za/" />
+  <meta property="og:title"       content="BRADBRI Pty Ltd – Precision Engineering Solutions" />
+  <meta property="og:description" content="High-precision mechanical components for defence, mining and commercial vehicle industries. CNC machining, driveline & custom engineering — Gauteng, South Africa." />
+  <meta property="og:image"       content="https://images.pexels.com/photos/10970399/pexels-photo-10970399.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="BRADBRI Pty Ltd – Precision Engineering Solutions" />
+  <meta name="twitter:description" content="CNC machining, driveline & custom-engineered components for defence, mining and commercial vehicles. Gauteng, South Africa." />
+  <meta name="twitter:image"       content="https://images.pexels.com/photos/10970399/pexels-photo-10970399.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+
+  <!-- ── FAVICON ──────────────────────────────────────────────────────── -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%236b8c3a'/><text x='50' y='72' font-size='62' font-family='Arial Black,sans-serif' font-weight='900' text-anchor='middle' fill='white'>B</text></svg>" />
+
+  <!-- ── PERFORMANCE HINTS ────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+  <!-- Preload hero image — above the fold, loads immediately -->
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/10970399/pexels-photo-10970399.jpeg?auto=compress&cs=tinysrgb&w=1400&fit=crop" />
+
+  <!-- ── GOOGLE ANALYTICS 4 ───────────────────────────────────────────── -->
+  <!--
+    SETUP: Replace G-XXXXXXXXXX with your Measurement ID
+    1. Go to https://analytics.google.com
+    2. Admin → Create Property → Web → copy your Measurement ID (starts with G-)
+    3. Paste it in both places below
+  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- ── FONTS ────────────────────────────────────────────────────────── -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- ── JSON-LD STRUCTURED DATA ──────────────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "name": "BRADBRI Pty Ltd",
+        "description": "Precision engineering solutions for defence, mining and commercial vehicle industries. CNC machining, driveline components and custom-engineered parts.",
+        "url": "https://bradbri.co.za",
+        "email": "info@bradbri.co.za",
+        "telephone": "+27111234567",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Gauteng",
+          "addressCountry": "ZA"
+        },
+        "areaServed": "South Africa",
+        "image": "https://images.pexels.com/photos/10970399/pexels-photo-10970399.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      },
+      {
+        "@type": "Service",
+        "serviceType": "CNC Machining & Fabrication",
+        "provider": { "@type": "LocalBusiness", "name": "BRADBRI Pty Ltd" }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Driveline & Prop Shaft Manufacturing",
+        "provider": { "@type": "LocalBusiness", "name": "BRADBRI Pty Ltd" }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Custom Engineered Components",
+        "provider": { "@type": "LocalBusiness", "name": "BRADBRI Pty Ltd" }
+      }
+    ]
+  }
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -369,21 +455,21 @@
 
   <div class="grid3">
     <div class="card">
-      <img class="card-img"
+      <img class="card-img" loading="lazy" width="700" height="470"
         src="https://images.pexels.com/photos/10970399/pexels-photo-10970399.jpeg?auto=compress&cs=tinysrgb&w=700&h=470&fit=crop"
-        alt="Military & Defence" />
+        alt="Military armoured vehicle — BRADBRI defence engineering" />
       <div class="card-label">Military &amp; Defence</div>
     </div>
     <div class="card">
-      <img class="card-img"
+      <img class="card-img" loading="lazy" width="700" height="470"
         src="https://images.pexels.com/photos/2892618/pexels-photo-2892618.jpeg?auto=compress&cs=tinysrgb&w=700&h=470&fit=crop"
-        alt="Mining & Heavy Equipment" />
+        alt="Open pit mining excavation — BRADBRI heavy equipment components" />
       <div class="card-label">Mining &amp; Heavy Equipment</div>
     </div>
     <div class="card">
-      <img class="card-img"
+      <img class="card-img" loading="lazy" width="700" height="470"
         src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=700&h=470&fit=crop"
-        alt="Commercial Vehicles" />
+        alt="White semi-truck — BRADBRI commercial vehicle components" />
       <div class="card-label">Commercial Vehicles</div>
     </div>
   </div>
@@ -396,27 +482,27 @@
 
   <div class="grid4">
     <div class="card">
-      <img class="card-img card-img--short"
+      <img class="card-img card-img--short" loading="lazy" width="500" height="334"
         src="https://images.pexels.com/photos/1381938/pexels-photo-1381938.jpeg?auto=compress&cs=tinysrgb&w=500&h=334&fit=crop"
-        alt="Drive Shafts & Prop Shafts" />
+        alt="Metal drive shaft and prop shaft components" />
       <div class="card-label" style="font-size:15px;">Drive &amp; Prop Shafts</div>
     </div>
     <div class="card">
-      <img class="card-img card-img--short"
+      <img class="card-img card-img--short" loading="lazy" width="500" height="334"
         src="https://images.pexels.com/photos/9242912/pexels-photo-9242912.jpeg?auto=compress&cs=tinysrgb&w=500&h=334&fit=crop"
-        alt="Steering Components" />
+        alt="Precision steering components and mechanical parts" />
       <div class="card-label" style="font-size:15px;">Steering Components</div>
     </div>
     <div class="card">
-      <img class="card-img card-img--short"
+      <img class="card-img card-img--short" loading="lazy" width="500" height="334"
         src="https://images.pexels.com/photos/7480239/pexels-photo-7480239.jpeg?auto=compress&cs=tinysrgb&w=500&h=334&fit=crop"
-        alt="Precision Machining" />
+        alt="CNC precision machining of metal components" />
       <div class="card-label" style="font-size:15px;">Precision Machining</div>
     </div>
     <div class="card">
-      <img class="card-img card-img--short"
+      <img class="card-img card-img--short" loading="lazy" width="500" height="334"
         src="https://images.pexels.com/photos/221028/pexels-photo-221028.jpeg?auto=compress&cs=tinysrgb&w=500&h=334&fit=crop"
-        alt="Reverse Engineering" />
+        alt="Mechanical gears and components for reverse engineering" />
       <div class="card-label" style="font-size:15px;">Reverse Engineering</div>
     </div>
   </div>
@@ -441,18 +527,39 @@
       <h3>Get in Touch</h3>
       <span>Contact us to discuss your engineering needs</span>
     </div>
-    <form onsubmit="handleSubmit(event)">
+    <!--
+      FORMSPREE SETUP (3 steps — takes 2 minutes):
+      1. Go to https://formspree.io → Sign Up (free)
+      2. Click "New Form" → name it "BRADBRI Enquiries" → copy your Form ID
+      3. Replace YOUR_FORM_ID below with your actual ID (looks like: xpzgkwqr)
+    -->
+    <form id="contact-form"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST">
+
+      <!-- Hidden fields: control email subject & redirect after submission -->
+      <input type="hidden" name="_subject" value="New Enquiry – BRADBRI Website" />
+      <input type="hidden" name="_next"    value="https://bradbri.co.za/#contact" />
+
       <div class="form-row3">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <input type="tel" placeholder="Phone" />
+        <input type="text"  name="name"    placeholder="Name"  required />
+        <input type="email" name="email"   placeholder="Email" required />
+        <input type="tel"   name="phone"   placeholder="Phone" />
       </div>
       <div class="form-full">
-        <textarea placeholder="Message" required></textarea>
+        <textarea name="message" placeholder="Message" required></textarea>
       </div>
       <div class="form-submit">
-        <button type="submit" class="btn-send">Send Message</button>
+        <button type="submit" class="btn-send" id="submit-btn">Send Message</button>
       </div>
+
+      <!-- Success / error messages (shown by JS after AJAX submission) -->
+      <p id="form-success" style="display:none;color:#7ea844;margin-top:12px;font-size:14px;">
+        ✓ Message sent! We'll be in touch shortly.
+      </p>
+      <p id="form-error" style="display:none;color:#e05252;margin-top:12px;font-size:14px;">
+        Something went wrong. Please email us directly at info@bradbri.co.za
+      </p>
     </form>
   </div>
 
@@ -496,18 +603,43 @@
     navMobile.classList.toggle('open');
   });
 
-  // Hide desktop .nav-cta on mobile (it's inside nav, shown by CSS)
-  // Contact form
-  function handleSubmit(e) {
-    e.preventDefault();
-    const btn = e.target.querySelector('.btn-send');
-    btn.textContent = 'Sent!';
-    btn.style.background = '#3a6a1a';
-    setTimeout(() => {
+  // ── Contact form → Formspree AJAX ──────────────────────────────────
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn     = document.getElementById('submit-btn');
+      const success = document.getElementById('form-success');
+      const error   = document.getElementById('form-error');
+
+      btn.textContent = 'Sending…';
+      btn.disabled    = true;
+      success.style.display = 'none';
+      error.style.display   = 'none';
+
+      try {
+        const res = await fetch(contactForm.action, {
+          method:  'POST',
+          body:    new FormData(contactForm),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          success.style.display = 'block';
+          contactForm.reset();
+          // Track lead in GA4
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'generate_lead', { event_category: 'contact_form' });
+          }
+        } else {
+          error.style.display = 'block';
+        }
+      } catch {
+        error.style.display = 'block';
+      }
+
       btn.textContent = 'Send Message';
-      btn.style.background = '';
-      e.target.reset();
-    }, 3000);
+      btn.disabled    = false;
+    });
   }
 
   // Hide mobile nav on link click
